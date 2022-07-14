@@ -1,0 +1,89 @@
+###
+GET http://localhost:8080/hero/listAllActive HTTP/1.1
+
+###
+GET http://localhost:8080/hero/listByCharacterName HTTP/1.1
+
+###
+GET http://localhost:8080/hero/listByCharacterId HTTP/1.1
+
+###
+GET http://localhost:8080/hero/listByNameAndIsActive HTTP/1.1
+
+###
+POST http://localhost:8080/hero/saveCharacter HTTP/1.1
+
+###
+PUT http://localhost:8080/hero/updateCharacter HTTP/1.1
+
+###
+PUT http://localhost:8080/hero/deleteCharacter/2 HTTP/1.1
+
+###
+GET http://localhost:8080/hero/listByCharacterId HTTP/1.1
+
+###
+GET http://localhost:8080/publisher/listById HTTP/1.1
+
+###
+GET http://localhost:8080/issue/listAllActive HTTP/1.1
+
+###
+GET http://localhost:8080/issue/listByIssueId HTTP/1.1
+
+###
+GET http://localhost:8080/publisher/listById/2 HTTP/1.1
+
+###
+GET http://localhost:8080/user/login/MWolf/testing HTTP/1.1
+
+###
+GET http://localhost:8080/user/createUser HTTP/1.1
+
+###
+GET http://localhost:8080/user/login/Testing/1234 HTTP/1.1
+
+### 
+GET http://localhost:8080/user/login/ HTTP/1.1
+
+###
+GET http://localhost:8080/user/login/MWolf/test HTTP/1.1
+
+###
+GET  http://localhost:8080/issue/getUserCollection/3 HTTP/1.1
+
+###
+GET http://localhost:8080/issue/listAllActive HTTP/1.1
+
+###
+GET http://localhost:8080/friend/listByUserId/56 HTTP/1.1
+
+###
+GET http://localhost:8080/friend/saveFriend HTTP/1.1
+
+###
+GET http://localhost:8080/issue/listByUserIdAndPublisherId/3/1 HTTP/1.1
+
+###
+GET http://localhost:8080/issue/listAllActive HTTP/1.1
+
+###
+GET http://localhost:8080/friend/findFriend/katie HTTP/1.1
+
+###
+GET http://localhost:8080/homescreen/listActiveUsers HTTP/1.1
+
+###
+GET http://localhost:8080/issue/listByIssueId/31 HTTP/1.1
+
+###
+GET http://localhost:8080/issue/listByUserIdAndCharacterId/3/6 HTTP/1.1
+
+###
+GET http://localhost:8080/issue/filterBySearchName/3/a HTTP/1.1
+
+###
+GET http://localhost:8080/issue/listByUserIdAndCharacterId/3/2 HTTP/1.1
+
+###
+GET http://localhost:8080/hero/findByCharacterName/superman HTTP/1.1
